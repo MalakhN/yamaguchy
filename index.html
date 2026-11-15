@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фен-стайлер в уникальном дизайне</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Секция для десктопа -->
+  <section class="dial-section">
+    <div class="dial-wheel-wrapper">
+      <div class="dial-wheel">
+        <div class="icon-slot" data-index="0">
+          <div class="icon-badge is-active">
+            <img class="icon-inactive" src="./images/fether.svg" alt="">
+            <img class="icon-active" src="./images/feather-active.svg" alt="">
+            <span class="icon-label">ФЕН-СТАЙЛЕР <br>2 В 1</span>
+          </div>
+        </div>
+        <div class="icon-slot" data-index="1">
+          <div class="icon-badge">
+            <img class="icon-inactive" src="./images/fan.svg" alt="">
+            <img class="icon-active" src="./images/fan-active.svg" alt="">
+            <span class="icon-label">СУПЕРЛЁГКИЙ</span>
+          </div>
+        </div>
+        <div class="icon-slot" data-index="2">
+          <div class="icon-badge">
+            <img class="icon-inactive" src="./images/wheel.svg" alt="">
+            <img class="icon-active" src="./images/wheel-active.svg" alt="">
+            <span class="icon-label">ИННОВАЦИОННЫЙ <br>ЯПОНСКИЙ МОТОР</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slides-viewport">
+      <div class="slide slide-1">
+        <h2>ФЕН и СТАЙЛЕР <br>в уникальном дизайне</h2>
+        <span class="slide-1__tag">2 в 1</span>
+        <div class="slide-1__container">
+          <div class="slide-1__fan">
+            <span>Фен</span>
+            <img src="./images/fan.png" alt="фен YAMAGUCHI">
+          </div>
+          <img class="slide-1__img" src="./images/fan-styler.png" alt="фен-стайлер YAMAGUCHI">
+          <div class="slide-1__styler">
+            <span>Стайлер</span>
+            <img src="./images/styler.png" alt="стайлер YAMAGUCHI">
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide-2">
+        <div class="slide__badge slide-2__badge">
+          <span>Не тяжелее<br>чашки кофе</span>
+        </div>
+        <div class="slide-2__container">
+          <div class="slide-2__image-wrapper">
+            <img src="./images/girl.png" alt="Девушка со стайлером Yamaguchi">
+          </div>
+          <div class="slide-2__content">
+            <h2>СУПЕР-<br>ЛЁГКИЙ</h2>
+            <p>Уменьшает усталость рук при сушке волос, делая процедуру удобной и&nbsp;приятной даже после напряжённого рабочего дня.</p>
+            <div class="slide-2__tag">500 г</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide-3">
+        <div class="slide-3__content">
+          <h2>Для ценителей комфорта <br>и качества в уходе за волосами</h2>
+          <p>Бесщеточный мотор BLDC</p>
+        </div>
+        <div class="slide__badge slide-3__badge">
+          <span>Салонная<br>мощность</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция для мобильных устройств -->
+  <section class="mobile-section">
+    <div class="hero">
+      <h2>ФЕН и СТАЙЛЕР <br>в уникальном дизайне</h2>
+      <span class="hero__tag">2 в 1</span>
+      <div class="hero__container">
+        <div class="hero__fan">
+          <span>Фен</span>
+          <img src="./images/fan.png" alt="фен YAMAGUCHI">
+        </div>
+        <div class="hero__styler">
+          <span>Стайлер</span>
+          <img src="./images/styler.png" alt="стайлер YAMAGUCHI">
+        </div>
+      </div>
+    </div>
+    <div class="divider">
+      <img src="./images/feather-border.svg" alt="">
+      <span>Лёгкость и&nbsp;комфорт в&nbsp;руке</span>
+    </div>
+    <div class="fan">
+      <h2>СУПЕРЛЁГКИЙ</h2>
+      <span class="fan__tag">500 г</span>
+      <p>Уменьшает усталость рук при сушке волос, делая процедуру удобной и&nbsp;приятной даже после напряжённого рабочего дня.</p>
+      <div class="slide__badge fan__badge">
+        <span>Не тяжелее <br>чашки кофе</span>
+      </div>
+    </div>
+    <div class="divider">
+      <img src="./images/wheel-border.svg" alt="">
+      <span>Инновационный японский мотор</span>
+    </div>
+    <div class="motor">
+      <h2>Для ценителей<span>комфорта и&nbsp;качества</span><span>в уходе за волосами</span></h2>
+      <div class="motor__container">
+        <p>Бесщеточный<br>мотор BLDC</p>
+        <img src="./images/motor-img.png" alt="">
+        <div class="slide__badge motor__badge">
+          <span>Салонная <br>мощность</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GSAP + ScrollTrigger + ScrollToPlugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+
+  <script src="script.js"></script>
+  <script>
+    
+  </script>
+</body>
+</html>
